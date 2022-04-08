@@ -292,10 +292,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bababcb323371fe40a79b8faded32438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Precio1: 1
+  Precio1: 0.3
   Precio2: 1
-  Precio3: 1
-  DineroDisponible: 3
+  Precio3: 1.5
+  DineroDisponible: 5
 --- !u!4 &966314754
 Transform:
   m_ObjectHideFlags: 0
@@ -319,13 +319,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2057902710}
+  - component: {fileID: 2057902711}
   m_Layer: 0
   m_Name: Ej01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2057902710
 Transform:
   m_ObjectHideFlags: 0
@@ -340,3 +341,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2057902711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057902709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d1b58479a269134d8125b9c3aeac94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 1
+  num2: 1
